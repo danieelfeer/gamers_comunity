@@ -14,6 +14,7 @@ html{
 
 body{
     background-color: white;
+    
 }
 
 a{
@@ -38,6 +39,7 @@ nav{
 }
 
 .logo{
+    color: black;
     font-family: 'Teko', sans-serif;
     font-size: 2em;
     font-weight: 600;
@@ -46,7 +48,13 @@ nav{
 .menu{
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 3rem;
+
+}
+
+.menu a:hover{
+    font-size: 16.5px;
+    color: #7D97F4;
 }
 
 .button-container{
@@ -55,7 +63,7 @@ nav{
 }
 
 .enter-button{
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border: none;
     border-radius: 2rem;
 
@@ -64,9 +72,10 @@ nav{
     font-weight: 800;
 }
 
-.enter-button:hover{
+.enter-button:hover, 
+.cadastrar-button:hover{
     background-color: #324eb1;
-    color: #b8bec6;
+    color: #fff;
     cursor: pointer;
 }
 
@@ -83,6 +92,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
 .conteudo{
@@ -95,6 +105,8 @@ main{
     background-color: #0F0671;
     color: white;
     padding: 2rem;
+
+    
 }
 .texto-conteudo{
     display: flex;

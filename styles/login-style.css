@@ -17,12 +17,21 @@ body{
     background-position: center;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     
     
+}
+
+#logo{
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    text-shadow: 3px 1px 6px rgba(0, 0, 0, 0.818);
+    text-align: center;
 }
 
 .wrapper{
